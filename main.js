@@ -4,7 +4,7 @@
 
 // Función para manejar el contador de visitas
 function updateVisitCount() {
-    const apiUrl = "https://script.google.com/macros/s/AKfycbx8M6CfSYzj_LQwt2_KuYKdxUcFGnDNlj9cBrq35oi2g0Y3LGdZOgYHYUZzBHmr8I6g/exec"; // La URL que copiaste del despliegue
+    const apiUrl = 'https://script.google.com/macros/s/AKfycbx8M6CfSYzj_LQwt2_KuYKdxUcFGnDNlj9cBrq35oi2g0Y3LGdZOgYHYUZzBHmr8I6g/exec'; // La URL que copiaste del despliegue
 
     // Realizar una solicitud GET al script de Google Apps
     fetch(apiUrl)
